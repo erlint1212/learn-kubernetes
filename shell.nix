@@ -39,6 +39,7 @@ pkgs.mkShell {
     alias kgn="kubectl get nodes"
     alias kctx="kubectx"
     alias kns="kubens"
+    alias ka="kubectl apply -f"
 
     # Set Kubeconfig environment variable if you have a specific config file
     # export KUBECONFIG=$PWD/kubeconfig.yaml
