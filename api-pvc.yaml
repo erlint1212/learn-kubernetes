@@ -4,7 +4,7 @@ metadata:
   name: synergychat-api-pvc
 spec:
   accessModes:
-    - xxx
+    - ReadWriteOnce
   resources:
     requests:
-      storage: xxx
+      storage: 1Gi
